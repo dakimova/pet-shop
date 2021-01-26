@@ -1,0 +1,51 @@
+html {
+  height: 100%;
+  font-size: 16px;
+  overflow: auto;
+}
+/* max-width is equivalently 1399px*/
+@media only screen and (max-width: 89.938em) {
+  /* 0.69em is equivalently 11px */
+  html {
+    font-size: 0.69em;
+  }
+}
+
+/* min-width 1440px is equivalently and max-width is equivalently 1599px*/
+@media (min-width: 90em) and (max-width: 99.938em) {
+  /* 0.75em is equivalently 12px */
+  html {
+    font-size: 0.75em;
+  }
+}
+
+/* min-width 1600px is equivalently and max-width is equivalently 1799px*/
+@media (min-width: 100em) and (max-width: 112.438em) {
+  /* 0.81em is equivalently 13px */
+  html {
+    font-size: 0.813em;
+  }
+}
+
+/* min-width 1800px is equivalently and max-width is equivalently 1920px*/
+@media (min-width: 112.5em) and (max-width: 120em) {
+  /* 0.875em is equivalently 14px */
+  html {
+    font-size: 0.875em;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 300;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
